@@ -9,11 +9,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var HEROES = [
+    { id: 11, nombre: 'Mr. Nice' },
+    { id: 12, nombre: 'Narco' },
+    { id: 13, nombre: 'Bombasto' },
+    { id: 14, nombre: 'Celeritas' },
+    { id: 15, nombre: 'Magneta' },
+    { id: 16, nombre: 'RubberMan' },
+    { id: 17, nombre: 'Dynama' },
+    { id: 18, nombre: 'Dr IQ' },
+    { id: 19, nombre: 'Magma' },
+    { id: 20, nombre: 'Tornado' }
+];
 var AppComponent = (function () {
     function AppComponent() {
         this.titulo = 'Lista de Heroes';
         this.heroe = { id: 1, nombre: 'El Capitán Fanegas' };
+        this.heroes = HEROES;
+        this.heroeSeleccionado = Heroe;
     }
+    AppComponent.prototype.seleccionar = function (heroe) {
+        this.heroeSeleccionado = heroe;
+        console.log(this.heroeSeleccionado.nombre);
+    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
