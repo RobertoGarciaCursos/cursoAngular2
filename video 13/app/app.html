@@ -1,0 +1,15 @@
+<h1>{{titulo}}</h1>
+<h2>{{heroe.nombre}} details!</h2>
+<div>
+    <label> id: {{heroe.id}}</label>
+</div>
+<div>
+    <label> nombre: </label>
+    <input [(ngModel)]="heroe.nombre" placeholder="nombre"/>
+</div>
+<h2> Los Heroes</h2>
+<ul class="Heroes">
+    <li *ngFor="let heroe of heroes" (click)="seleccionar(heroe)">
+        <span class="babge"> {{heroe.id}}</span> {{ heroe.name}}
+    </li>
+</ul>
