@@ -8,5 +8,5 @@ de cada proyecto( sin dependencias ). Para utilizarlo podréis descargarlo como 
 git o simplemente como un zip a vuestro pc. Después tendréis que instalar las depencias desde
 npm si queréis desplegar en vuestra máquina. Tened siempre actualizado node y dependencias.
 
-Epero que os sea de ayuda.
+Espero que os sea de ayuda.
 
