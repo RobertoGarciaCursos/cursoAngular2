@@ -2,7 +2,9 @@ package com.backendAngular2;
 
 import java.util.ArrayList;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -34,8 +36,9 @@ public class Controller {
 	 * @param heroe
 	 */
 	@RequestMapping( value="/putHeroe", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
-	public void puttHeroe(@RequestBody Heroe heroe){
+	public ResponseEntity<Heroe> puttHeroe(@RequestBody Heroe heroe){
 		Heroes.putNewHeroe(heroe);
+		return new ResponseEntity<>( HttpStatus.OK);
 	}
 	
 	/**

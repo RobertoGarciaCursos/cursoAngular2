@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: backendAngular2
+Implementation-Version: 0.0.1
+Built-By: rober
+Implementation-Vendor-Id: com.backendAngular2
+Build-Jdk: 1.8.0_77
+Implementation-URL: http://projects.spring.io/spring-boot/backendAngul
+ ar2/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
