@@ -1,0 +1,16 @@
+<h1>{{titulo}}</h1>
+<nav>
+    <ul>
+    <a routerLink="/heroes">Mostrar lista heroes</a>
+    <a routerLink="/dashboard">Mostrar DashBoard</a>
+</ul>
+</nav>
+<div>
+    <button (click)="abrir()">Nuevo</button>
+</div>
+<div *ngIf="abierto">
+    <label>Nombre:</label>
+    <input id="inputNuevoHeroe" #inputNuevoHeroe />
+    <button (click)="aceptar(inputNuevoHeroe.value)"> Aceptar </button>
+</div>
+<router-outlet></router-outlet>
