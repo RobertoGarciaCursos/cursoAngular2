@@ -1,0 +1,8 @@
+let ruta:string = 'http://127.0.0.1:8080/heroes/putHeroe';
+        this.http.post(ruta, heroe, {headers: this.header})
+            .toPromise().then(
+            () =>{
+                let heroe:Heroe = new Heroe();
+                return heroe;
+            }
+        ).catch()
