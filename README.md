@@ -1,7 +1,7 @@
 # cursoAngular2_01
 Desde este repositorio podréis descargar el codigo de los proyectos del curso angular 2
 del canal CursosRobertoGarcia de youtube :
-https://www.youtube.com/channel/UCHps8uML_JDEWOPrdoocEPw
+https://www.youtube.com/channel/UCb8GU-z39BQxoRtg2FLY-MQ
 ---------------------------------------------------------------------------------------
 Están clasificados por video y dentro de cada directorio se encuentra el código completo
 de cada proyecto( sin dependencias ). Para utilizarlo podréis descargarlo como repositorio
